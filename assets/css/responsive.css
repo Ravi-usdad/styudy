@@ -509,6 +509,13 @@
         font-size: 35px;
         line-height: 45px;
     }
+    .customer-support-section{
+        padding: 20px 15px;
+    }
+    .customer-support-section .sub-text-customer{
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 
 @media (max-width:640px) {

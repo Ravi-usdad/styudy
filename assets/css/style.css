@@ -576,7 +576,7 @@ ul {
     background: var(--main-color);
 }
 .faq-main-section {
-    margin: 80px 0 30px;
+    margin-top: 80px;
 }
 .faq-main-section .title-icon-box {
     display: flex;
@@ -685,7 +685,6 @@ ul {
     pointer-events: none;
 }
 .customer-support-section {
-    margin: 30px 0 100px;
     background: var(--white);
     border-radius: 12px;
     padding: 60px 50px;
