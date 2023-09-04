@@ -730,6 +730,7 @@ ul {
 .customer-support-section .customer-support-box .customer-support-form .input-row {
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 20px;
 }
 .input-field {
@@ -749,9 +750,119 @@ ul {
     font-size: 14px;
     line-height: 20px;
     padding: 9px 15px;
+    font-family: 'Gilroy';
     width: 100%;
 }
 .customer-support-section .customer-support-box .customer-support-form .button.submit-button {
     width: fit-content;
     min-width: 140px;
+}
+.footer {
+    background: var(--blacktitle-color);
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .logo-footer{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer .link_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.footer .link_footer a{
+    color: var(--white);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.copy-right {
+    background: var(--text-color);
+}
+.copy-right-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 11px 0;
+}
+.copy-right-wrapper p {
+    color: var(--white);
+}
+.copy-right-wrapper p a {
+    color: var(--subLight-color);
+}
+.social-icon-list {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.about-tripgo{
+    margin-bottom: 50px;
+}
+.check-box .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    width: fit-content;
+}
+.check-box .checkbox input {
+    position: absolute;
+    width: 0;
+    left: 50px;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.check-box .checkbox .checkmark {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 6px;
+    outline: 1px solid var(--subLight-color);
+    transition: all 0.2s ease;
+}
+.check-box .checkbox .checkmark::after {
+    font-family: "tripgo" !important;
+    position: absolute;
+    display: block;
+    content: "\76";
+    opacity: 0;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    top: 2px;
+    left: 4px;
+    color: var(--main-color);
+    transition: all 0.2s ease;
+}
+.check-box .checkbox input:checked~.checkmark::after {
+    opacity: 1;
+}
+.checkbox p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.checkbox p a {
+    color: var(--main-color);
 }
