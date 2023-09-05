@@ -261,6 +261,9 @@
         line-height: 24px;
         margin-bottom: 10px;
     }
+    .customer-support-section .customer-support-box .customer-support-form {
+        padding: 30px;
+    }
 }
 
 @media (max-width:767px) {
@@ -484,9 +487,6 @@
         max-width: 100%;
     }
 
-    .lbiza-section {
-        flex-direction: column-reverse;
-    }
 
     .explore-lbiza-section .explore-lbiza-list {
         grid-template-columns: repeat(2, 1fr);
@@ -515,6 +515,9 @@
     .customer-support-section .sub-text-customer{
         font-size: 16px;
         line-height: 24px;
+    }
+    .customer-support-section .customer-support-box .customer-support-form {
+        padding: 30px 15px;
     }
 }
 
